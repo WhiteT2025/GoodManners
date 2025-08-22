@@ -1,0 +1,278 @@
+[
+  {
+    "prompt_text": "Excuse me, May I go to the bathroom?",
+    "prompt_audio": "assets/gotobathroom.wav",
+    "background": "assets/bathroom_visit.png",
+    "background_feedback": "assets/bathroom_visit.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/askingshowsgoodcommunication.wav",
+      "feedback_text": "Great! Asking shows good communication.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/oopsletswaitandaskfirstnexttime.wav",
+      "feedback_text": "Oops—let’s wait and ask first next time.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Grandma may I have one cookie?",
+    "prompt_audio": "assets/grandmacookie.wav",
+    "background": "assets/grandma_cookie.png",
+    "background_feedback": "assets/grandma_cookie.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yescookie.wav",
+      "feedback_text": "Yes! You may have 1 cookie.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/Notakingwithoutaskingisntpolite.wav",
+      "feedback_text": "No—taking without asking isn’t polite.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Say \"Good morning,\" to Dad.",
+    "prompt_audio": "assets/goodmorningdad.wav",
+    "background": "assets/dad_happy.png",
+    "background_feedback": "assets/dad_happy.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/greetingmakesdadsmile.wav",
+      "feedback_text": "Nice! A cheerful greeting makes Dad smile.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/letstryagaindadwillbehappytoheargoodmorning.wav",
+      "feedback_text": "Let’s try again—Dad will be happy to hear Good morning.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Say Hello, how are you? to Granddad.",
+    "prompt_audio": "assets/hellohowareyougranddad.wav",
+    "background": "assets/granddad_happy.png",
+    "background_feedback": "assets/granddad_happy.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/askingshowyoucareaboutgranddad.wav",
+      "feedback_text": "Great! Asking shows you care about Granddad.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/oopsskiprighttohellohowareyou.wav",
+      "feedback_text": "Oops—skip right to Hello, how are you?",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it bad manners to bite someone?",
+    "prompt_audio": "assets/isitbadmannerstobitesomeone.wav",
+    "background": "assets/biting.png",
+    "background_feedback": "assets/biting.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitsbadmannerstobitesomeone.wav",
+      "feedback_text": "Yes—it is bad manners to bite someone.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/nobitinghurtsletsbegentle.wav",
+      "feedback_text": "No—biting hurts. Let’s be gentle.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it bad manners to spit on people?",
+    "prompt_audio": "assets/isitbadmannerstospitonpeople.wav",
+    "background": "assets/nospitting.png",
+    "background_feedback": "assets/nospitting.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/nospittingonpeopleever.wav",
+      "feedback_text": "Right—no spitting on people ever!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/letstryagainspittingisnotpolite.wav",
+      "feedback_text": "Let’s try again—spitting is not polite.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it bad manners to kick someone?",
+    "prompt_audio": "assets/isitbadmannerstokicksomeone.wav",
+    "background": "assets/nokicking.png",
+    "background_feedback": "assets/nokicking.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitsbadmannerstokicksomeone.wav",
+      "feedback_text": "Yes—it is bad manners to kick someone.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/nokickinghurtsotherstryagain.wav",
+      "feedback_text": "No—kicking hurts others. Try again.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it good manners to say Thank you?",
+    "prompt_audio": "assets/isitgoodmannerstodaythankyou.wav",
+    "background": "assets/happyfamily.png",
+    "background_feedback": "assets/happyfamily.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitisgoodmannerstosaythankyou.wav",
+      "feedback_text": "Yes it is good manners to say Thank you!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/oppsremembertosaythankyou.wav",
+      "feedback_text": "Oops—remember to say “Thank you.”",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it good manners to help people?",
+    "prompt_audio": "assets/isitgoodmannerstohelppeople.wav",
+    "background": "assets/Helping.png",
+    "background_feedback": "assets/Helping.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitisgoodmannerstohelppeople.wav",
+      "feedback_text": "Yes, it is good manners to help people!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/letsusepleaseletmehelpnexttime.wav",
+      "feedback_text": "Let’s use “Please let me help” next time.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it bad manners to push someone?",
+    "prompt_audio": "assets/isitbadmannerstopushsomeone.wav",
+    "background": "assets/nopushing.png",
+    "background_feedback": "assets/nopushing.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitisbadmannerstopushpeople.wav",
+      "feedback_text": "Yes, it is bad manners to push people!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/letstryagainpushingisntsafe.wav",
+      "feedback_text": "Let’s try again—pushing isn’t safe.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it bad manners to scream at people?",
+    "prompt_audio": "assets/isitbadmannerstoscreamatpeople.wav",
+    "background": "assets/childscreaminginclass.png",
+    "background_feedback": "assets/childscreaminginclass.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yesitisbadmannerstoscreamatpeople.wav",
+      "feedback_text": "Yes, it is bad manners to scream at people!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/oopsyellinginsideisntgoodmanners.wav",
+      "feedback_text": "Oops—yelling inside isn’t good manners!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  },
+  {
+    "prompt_text": "Is it good manners to share toys?",
+    "prompt_audio": "assets/sharetoys.wav",
+    "background": "assets/sharing.png",
+    "background_feedback": "assets/sharing.png",
+    "background_animation": "bounce",
+    "positive": {
+      "frames_pattern": "assets/yes_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/yessharing.wav",
+      "feedback_text": "Yes, sharing toys is good manners!",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    },
+    "negative": {
+      "frames_pattern": "assets/no_frame_{n}.png",
+      "frame_count": 6,
+      "audio": "assets/letstryagainsharingshowskindness.wav",
+      "feedback_text": "Let’s try again—sharing shows kindness.",
+      "text_animation": "fade_in",
+      "animation_type": "bounce"
+    }
+  }
+]
